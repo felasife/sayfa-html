@@ -223,10 +223,10 @@ function displayToc(filter) {
    }
    tocTable += '</table>';
    if (numDisplayed == postTitle.length) {
-      var tocNote = '<span class="toc-note">Görüntülenen toplam ' + postTitle.length + ' mesaj<br/></span>'; }
+      var tocNote = '<span class="toc-note">Görüntülenen toplam ' + postTitle.length + ' konu<br/></span>'; }
    else {
       var tocNote = '<span class="toc-note">Görüntülenen ' + numDisplayed + ' etiketli yayınlar \'';
-      tocNote += postFilter + '\' > '+ postTitle.length + ' Toplam mesaj<br/></span>';
+      tocNote += postFilter + '\' > '+ postTitle.length + ' Toplam konu<br/></span>';
    }
    tocdiv.innerHTML = tocNote + tocTable;
 } // end of displayToc
